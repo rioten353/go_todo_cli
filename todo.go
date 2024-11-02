@@ -80,7 +80,7 @@ func (todos *Todos) Print() {
 		completedAt := ""
 
 		if t.Completed {
-			completed = "Ok"
+			completed = "Yes"
 			if t.CompletedAt != nil {
 				completedAt = t.CompletedAt.Format(time.RFC1123)
 			}
